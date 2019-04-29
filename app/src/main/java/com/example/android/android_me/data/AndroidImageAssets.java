@@ -72,7 +72,7 @@ public class AndroidImageAssets {
         add(R.drawable.legs12);
     }};
 
-    private static final List<Integer> all = new ArrayList<Integer>() {{
+    public static final List<Integer> all = new ArrayList<Integer>() {{
         addAll(heads);
         addAll(bodies);
         addAll(legs);
